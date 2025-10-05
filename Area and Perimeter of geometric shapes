@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main() {
+   float radius,side,length,breadth;
+    float const pi=3.1416;
+    scanf("%f %f %f %f" , &radius ,&side ,&length ,&breadth);
+    printf("Circle: %.2f %.2f\n" , pi*radius*radius ,2*pi*radius );
+    printf("Square: %.2f %.2f\n" , side*side, 4*side);
+    printf("Rectangle: %.2f %.2f\n" , length*breadth, 2*(length+breadth));
+    return 0;
+}
